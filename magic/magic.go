@@ -9,7 +9,7 @@ type DeviceType string
 
 const (
 	DirectDevice DeviceType = "direct"
-	ParentDevice DeviceType = "parent_device"
+	ParentDevice DeviceType = "parent_device" //every device must has a shadow device used for retain message and status for device
 	ShadowDevice DeviceType = "shadow_device"
 	AvatarDevice DeviceType = "avatar_device"
 )
