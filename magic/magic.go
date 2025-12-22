@@ -11,4 +11,11 @@ const (
 	DirectDevice DeviceType = "direct"
 	ParentDevice DeviceType = "parent_device"
 	ShadowDevice DeviceType = "shadow_device"
+	AvatarDevice DeviceType = "avatar_device"
+)
+
+type CredentialType string
+
+const (
+	MqttBasic CredentialType = "MQTT_BASIC"
 )
